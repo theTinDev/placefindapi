@@ -1,23 +1,9 @@
 const app = require('express')();
 const config = require('../config.json')
 
-app.get('/products', async (req, res) => {
-    const products = [
-        {
-          id: 1,
-          name: "hammer",
-        },
-        {
-          id: 2,
-          name: "screwdriver",
-        },
-        {
-          id: 3,
-          name: "wrench",
-        },
-       ];
+app.get('/api', async (req, res) => {
       
-       res.json(products);
+       res.json(content);
 })
 
 app.listen(config.port, async () => {
