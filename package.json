@@ -1,0 +1,14 @@
+{
+  "name": "placefindapi",
+  "version": "0.0.1",
+  "description": "API for finding places to make photos of yourself and others. ",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
